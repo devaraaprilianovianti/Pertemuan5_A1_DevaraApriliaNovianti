@@ -1,0 +1,19 @@
+# Deklarasi variabel
+var_nilai = 0
+var_i = 1
+
+# Perulangan WHILE pertama
+while (var_nilai < 10):
+    print("Perulangan pertama Ke ", var_nilai)
+
+    # Perulangan WHILE kedua
+    while (var_i < 3):
+        print(" Perulangan ke ", var_nilai, ", ", var_i)
+        var_i += 1
+
+    # Diluar perulangan var_i
+    var_i = 1
+    var_nilai += 1
+
+# Diluar_perulangan var_nilai
+print("var_nilai = ", int(var_nilai), " = 10. Bernilai False")
